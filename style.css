@@ -122,13 +122,12 @@
 
     .about img {
      max-width: 100%;     
-             
      height: 320px;
      object-fit: cover;
      border-radius: 15px;
      flex: 1 1 400px;
-      width: 650px;
-      border-radius: 15px;
+     width: 650px;
+     border-radius: 15px;
     }
 
     .about-text {
