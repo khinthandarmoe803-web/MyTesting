@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport">
+<meta name="description" content="Enjoy the best coffee, tea, and fresh desserts at Golden Cup Café in Dawei. A cozy place to relax with friends. Visit us today!">
+<title>Golden Cup Café | Order Form</title>
+<link rel="icon" href="Images/COFFEE_SHOP_LOGO.png">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+  <!-- HEADER -->
+  <header>
+    <div class="logo">
+      <img src="Images/COFFEE_SHOP_LOGO.png" alt="Café Logo" class="logoimg"><h1>Golden Cup Café</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<div class="order-container">
+  <form action="#confirm-box1">
+    <h2>Cafe Order Form</h2>
+
+    <form>
+        <!-- Name -->
+        <label>Customer Name</label>
+        <input type="text" placeholder="Enter your name" required>
+
+        <!-- Phone -->
+        <label>Phone Number</label>
+        <input type="tel" placeholder="Phone number" required>
+
+        <!-- Drink -->
+        <label>Select Drink</label>
+        <select>
+          <option>Select</option>
+            <option>Espresso</option>
+            <option>Cappuccino</option>
+            <option>Latte</option>
+            <option>Iced Mocha</option>
+            <option>Cortado</option>
+            <option>Iced Dirty Chai Latte</option>
+            <option>Irish Coffee</option>
+            <option>Doppio Coffee</option>
+            <option>Black Coffee</option>
+            <option>Iced Coffee</option>
+            <option>Flat White</option>
+            <option>Iced Americano</option>
+        </select>
+
+        <!-- Size -->
+        <label>Size</label>
+        <select>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+        </select>
+
+           <!-- Partries -->
+        <label>Select Partries</label>
+        <select>
+            <option>Select</option>
+            <option>Flaky Croissant</option>
+            <option>Chocolate Croissant</option>
+            <option>Strawberry Cream Croissant</option>
+            <option>French Almond Croissant</option>
+            <option>Ham & Cheese Croissant</option>
+            <option>Matcha Glazed Croissant</option>
+            <option>Banana Chocolate Muffin</option>
+            <option>Chocolate Chip Cookie</option>
+            <option>American pancake</option>
+            <option>Sandwich</option>
+            <option>Raspberry Croissant</option>
+            <option>Salted Egg Croissant</option>
+        </select>
+
+        <!-- Quantity -->
+        <label>Quantity</label>
+        <input type="number" min="1" value="1">
+
+        <!-- Delivery -->
+        <label>Delivery Address</label>
+        <textarea rows="3" placeholder="Enter your address"></textarea>
+
+        <!-- Note -->
+        <label>Note</label>
+        <textarea rows="2" placeholder="Any special request"></textarea>
+
+       <label></label>
+       <select class="payment">
+       <option>Select Payment</option>
+       <option>KBZ Pay </option>
+       <option>Wave Pay </option>
+       <option>AYA Pay</option>
+      </select>
+
+<button type="submit1" class="order-btn1">Submit</button>
+
+</form>
+</div>
+
+<div id="confirm-box1" class="modal-overlay1">
+    <div class="modal-content1">
+        <h3>Confirm Order!</h3>
+        <p>Thank you for your order</p>
+        <a href="#" class="close-btn1">OK</a>
+    </div>
+</div>
+
+
+<!-- FOOTER -->
+    <footer>
+  <div class="footer-container">
+    <div class="footer-brand">
+      <h2>Golden Cup Café</h2>
+      <p> <i>Your Daily Coffee Escape<br>
+            Relax, refresh and enjoy.</i></p>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="footer-links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact Info -->
+    <div class="footer-contact">
+      <h3>Contact Us</h3>
+      <p>Email: <a href="mailto:goldencupcafé@gmail.com">goldencupcafé@gmail.com</a></p>
+      <br>
+      <p>Phone: <a href="tel:+959650691526">+95 965 069 1526</a></p>
+    </div>
+
+    <!-- Social Media -->
+    <div class="footer-social">
+      <h3>Follow Us</h3>
+      <a href="https://www.instagram.com" target="_blank">Instagram</a> |
+      <a href="https://www.facebook.com" target="_blank">Facebook</a> |
+      <a href="https://www.twitter.com" target="_blank">Twitter</a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2026 Golden Cup Café. All rights reserved. | Created By Khin Thandar Moe</p>
+  </div>
+  </footer>
+  
+</body>
+</html>
